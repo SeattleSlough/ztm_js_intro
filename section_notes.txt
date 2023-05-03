@@ -56,7 +56,7 @@ JAVASCRIPT LOGICAL OPERATORS
 JAVASCRIPT FUNCTIONS
 -----------------
 var a = function name() {}
-function name() {}
+function name() {} (function declaration)
 return
 () => (arrow function)
 
