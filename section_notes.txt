@@ -47,9 +47,11 @@ switch
 
 JAVASCRIPT LOGICAL OPERATORS
 -----------------
-&&
-||
-!
+&& (AND)
+|| (OR)
+! (NOT) 
+    [used in front of condition/statement ==> !(condition/statement)]
+    [used for turning off switches ==> !true ==> false  !false ==> true]
 
 JAVASCRIPT FUNCTIONS
 -----------------
