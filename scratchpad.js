@@ -20,9 +20,21 @@
 
 // FUNCTION EXPRESSION
 
-//this is an anonymous function
-var sayBye = function () {
-	console.log("Bye");
-};
+// this is an anonymous function
+const sayBye = function () {
+  console.log('Bye')
+}
 
-sayBye();
+sayBye()
+
+function sing (song) {
+  console.log(song)
+}
+
+sing('Ahhhhhhhhh')
+
+function multiply (a, b) {
+  console.log(a * b)
+}
+
+multiply(5, 10)
