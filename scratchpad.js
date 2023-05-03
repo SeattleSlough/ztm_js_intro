@@ -19,6 +19,8 @@
 // }
 
 // FUNCTION EXPRESSION
+
+//this is an anonymous function
 var sayBye = function () {
 	console.log("Bye");
 };
