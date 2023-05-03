@@ -2,11 +2,12 @@ JAVASCRIPT TYPES (VALUES)
 -------------------
 1. Number (+-*/% NaN)
 2. String ("") 
-    [concatination works "a" + "b" = "ab"] 
-    [\ escape out for single quoue - isn\'t]
+    [concatenation works "a" + "b" = "ab"] 
+    [\ escape out for single quote - isn\'t]
     [10 + "34" ==> "1034" BUT 10 - "3" ==> 7]
 3. Boolean (true false)
-4. Undefined
+4. Undefined (variable is unassigned)
+    [var a; ==> undefined]
 5. Null
 6. Symbol
 7. Object
@@ -25,7 +26,13 @@ JAVASCRIPT COMPARISONS
 
 JAVASCRIPT VARIABLES
 -----------------
-var
+var 
+    [var foo = whatever;]
+    [console.log(foo) = whatever]
+    [needs to start with a letter, not a symbol other than $ or _]
+    [can end in a number]
+    [camel case ==> camelCase]
+
 let
 const
 
