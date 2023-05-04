@@ -57,6 +57,10 @@ JAVASCRIPT FUNCTIONS
 -----------------
 var a = function name() {}
 function name() {} (function declaration)
+    [parameters ==> what is being actually passed into a function]
+    [arguments ==> what a function takes in]
+    [function foo(a,b) ==> a and b are the parameters of foo, a function w/two arguments]
+
 return
     [escapes the function]
     [any execution will end with first instance of return]
