@@ -1,7 +1,9 @@
 var list = [ "tiger", "cat", "bear", "bird" ];
 
+// eslint-disable-next-line no-unused-vars
 var numbers = [ 1, 2, 3, 4 ];
 
+// eslint-disable-next-line no-unused-vars
 var booleans = [ true, false, false, true ];
 
 // var functionList = [ apple() ];
