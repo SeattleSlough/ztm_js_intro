@@ -1,8 +1,8 @@
 JAVASCRIPT TYPES (VALUES)
 -------------------
 1. Number (+-*/% NaN)
-2. String ("") 
-    [concatenation works "a" + "b" = "ab"] 
+2. String ("")
+    [concatenation works "a" + "b" = "ab"]
     [\ escape out for single quote - isn\'t]
     [10 + "34" ==> "1034" BUT 10 - "3" ==> 7]
 3. Boolean (true false)
@@ -26,7 +26,7 @@ JAVASCRIPT COMPARISONS
 
 JAVASCRIPT VARIABLES
 -----------------
-var 
+var
     [var foo = whatever;]
     [console.log(foo) = whatever]
     [needs to start with a letter, not a symbol other than $ or _]
@@ -49,7 +49,7 @@ JAVASCRIPT LOGICAL OPERATORS
 -----------------
 && (AND)
 || (OR)
-! (NOT) 
+! (NOT)
     [used in front of condition/statement ==> !(condition/statement)]
     [used for turning off switches ==> !true ==> false  !false ==> true]
 
@@ -58,6 +58,9 @@ JAVASCRIPT FUNCTIONS
 var a = function name() {}
 function name() {} (function declaration)
 return
+    [escapes the function]
+    [any execution will end with first instance of return]
+
 () => (arrow function)
 
 JAVASCRIPT DATA STRUCTURES
@@ -69,8 +72,8 @@ JAVASCRIPT LOOPING
 -----------------
 for
 while
-do 
-forEach (new in ECMAScript 5) 
+do
+forEach (new in ECMAScript 5)
 
 
 JAVASCRIPT KEYWORDS
