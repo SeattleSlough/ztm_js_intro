@@ -20,5 +20,15 @@ var obj3 = {
 
 var newsfeed = [ obj1, obj2, obj3 ];
 
+var userNamePrompt = prompt( "What's your username?" )
+var passwordPrompt = prompt( "What's your password?" )
 
-console.log( database, newsfeed[ 0 ] )
+function signIn ( user, pass ) {
+    if ( user === database[ 0 ].username && pass === database[ 0 ].password ) {
+        console.log( newsfeed );
+    } else {
+        alert( "Sorry, wrong username or password" )
+    }
+}
+
+signIn( userNamePrompt, passwordPrompt );

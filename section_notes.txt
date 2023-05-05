@@ -36,6 +36,8 @@ var
 let
 const
 
+variables are ASSIGNED
+
 JAVASCRIPT CONDITIONALS
 -----------------
 if
@@ -55,8 +57,16 @@ JAVASCRIPT LOGICAL OPERATORS
 
 JAVASCRIPT FUNCTIONS
 -----------------
+An EXPRESSION is statement that produces a value
+To access that value we CALL or INVOKE the function
+
+
+// FUNCTION EXPRESSION
 var a = function name() {}
-function name() {} (function declaration)
+
+
+//FUNCTION DECLARATION
+function name() {}
     [parameters ==> what is being actually passed into a function]
     [arguments ==> what a function takes in]
     [function foo(a,b) ==> a and b are the parameters of foo, a function w/two arguments]
@@ -66,6 +76,18 @@ return
     [any execution will end with first instance of return]
 
 () => (arrow function)
+
+// FUNCTION vs METHOD
+function thisIsAFunction() { return true}
+
+var obj = {
+    thisIsAMethod: function()
+}
+
+METHOD is called by placing a dot (.) after the Object name
+
+function(arg)
+Obj.method
 
 JAVASCRIPT DATA STRUCTURES
 -----------------
