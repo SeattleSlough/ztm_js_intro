@@ -5,5 +5,17 @@ var user = {
     isMarried: false,
 };
 
-console.log('user:', user);
+user.favoriteFood = "spinach";
+
+console.log(user);
+
+user.isMarried = true;
+
+console.log(user);
+
+var list = ["abrakadabra", "shazaam", "presto"]
+
+user.spells = list;
+
+console.log(user);
 
