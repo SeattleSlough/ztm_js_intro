@@ -1,0 +1,7 @@
+{
+    "editor.formatOnType": true,
+    "eslint.format.enable": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true
+}
