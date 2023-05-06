@@ -39,14 +39,17 @@ var obj3 = {
 
 var newsfeed = [ obj1, obj2, obj3 ];
 
-function signIn( user, pass ) {
+function isUserValid( user, pass ) {
     for( let i = 0; i < database.length; i++ ) {
         if( database[ i ].username === user && database[ i ].password === pass ) {
-            console.log( newsfeed )
-        } else {
-            alert( "Sorry, wrong username or password" );
+            return true;
         }
     }
+    return false;
+}
+
+function signIn( username, password ) {
+    isUserValid( username, password ) ? console.log( newsfeed ) : alert( "Sorry, wrong username or password" );
 }
 
 var userNamePrompt = prompt( "What's your username?" );
